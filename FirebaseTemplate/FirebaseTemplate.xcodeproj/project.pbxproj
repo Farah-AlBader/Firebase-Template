@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D50522253B3036002E6CBF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D50521253B3036002E6CBF /* GoogleService-Info.plist */; };
+		04D50526253B335B002E6CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D50524253B335B002E6CBF /* ViewController.swift */; };
+		04D50527253B335B002E6CBF /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D50525253B335B002E6CBF /* mainVC.swift */; };
+		04D5052E253B3368002E6CBF /* KitabyLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5052A253B3368002E6CBF /* KitabyLaunch.storyboard */; };
+		04D5052F253B3368002E6CBF /* Kitaby.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5052C253B3368002E6CBF /* Kitaby.storyboard */; };
+		04D50535253B7AB0002E6CBF /* books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D50534253B7AB0002E6CBF /* books.swift */; };
+		04D50537253B846A002E6CBF /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D50536253B846A002E6CBF /* CategoriesCollectionViewCell.swift */; };
+		04D50539253B866D002E6CBF /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D50538253B866D002E6CBF /* BookCollectionViewCell.swift */; };
+		04D5053E253B9317002E6CBF /* categoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5053D253B9317002E6CBF /* categoriesViewController.swift */; };
 		D209076024B9EA180069B920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209075F24B9EA180069B920 /* Main.storyboard */; };
 		D209076324B9ED810069B920 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076224B9ED810069B920 /* SignInVC.swift */; };
 		D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076424B9EE8D0069B920 /* SignUpVC.swift */; };
 		D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076624B9FB0D0069B920 /* HomeVC.swift */; };
 		D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076824B9FDC60069B920 /* CreateItemVC.swift */; };
 		D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076A24B9FDD80069B920 /* ItemListVC.swift */; };
-		D26B2C612469F2A200470CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */; };
 		D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD324662807005E16A3 /* AppDelegate.swift */; };
 		D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD524662807005E16A3 /* SceneDelegate.swift */; };
 		D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FD924662809005E16A3 /* Assets.xcassets */; };
@@ -59,6 +67,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D50521253B3036002E6CBF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04D50524253B335B002E6CBF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D50525253B335B002E6CBF /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		04D5052B253B3368002E6CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/KitabyLaunch.storyboard; sourceTree = "<group>"; };
+		04D5052D253B3368002E6CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Kitaby.storyboard; sourceTree = "<group>"; };
+		04D50534253B7AB0002E6CBF /* books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = books.swift; sourceTree = "<group>"; };
+		04D50536253B846A002E6CBF /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D50538253B866D002E6CBF /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D5053D253B9317002E6CBF /* categoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesViewController.swift; sourceTree = "<group>"; };
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D209075F24B9EA180069B920 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -67,8 +84,7 @@
 		D209076624B9FB0D0069B920 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D209076824B9FDC60069B920 /* CreateItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemVC.swift; sourceTree = "<group>"; };
 		D209076A24B9FDD80069B920 /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
-		D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D2C26FD024662807005E16A3 /* FirebaseTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C26FD024662807005E16A3 /* Kitaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C26FD324662807005E16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD524662807005E16A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD924662809005E16A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -159,6 +175,72 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		04D50510253B1FF4002E6CBF /* Kitaby */ = {
+			isa = PBXGroup;
+			children = (
+				04D5053A253B8C2B002E6CBF /* CVs */,
+				04D50533253B7A86002E6CBF /* models */,
+				04D50530253B336E002E6CBF /* Cells */,
+				04D50529253B3368002E6CBF /* Storyboards */,
+				04D50528253B3362002E6CBF /* TVCs */,
+				04D50523253B335B002E6CBF /* VCs */,
+				04D50521253B3036002E6CBF /* GoogleService-Info.plist */,
+			);
+			path = Kitaby;
+			sourceTree = "<group>";
+		};
+		04D50523253B335B002E6CBF /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				04D50524253B335B002E6CBF /* ViewController.swift */,
+				04D50525253B335B002E6CBF /* mainVC.swift */,
+			);
+			name = VCs;
+			path = ../../../Kitaby/Kitaby/VCs;
+			sourceTree = "<group>";
+		};
+		04D50528253B3362002E6CBF /* TVCs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TVCs;
+			sourceTree = "<group>";
+		};
+		04D50529253B3368002E6CBF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04D5052A253B3368002E6CBF /* KitabyLaunch.storyboard */,
+				04D5052C253B3368002E6CBF /* Kitaby.storyboard */,
+			);
+			name = Storyboards;
+			path = ../../../Kitaby/Kitaby/Storyboards;
+			sourceTree = "<group>";
+		};
+		04D50530253B336E002E6CBF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04D50536253B846A002E6CBF /* CategoriesCollectionViewCell.swift */,
+				04D50538253B866D002E6CBF /* BookCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04D50533253B7A86002E6CBF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				04D50534253B7AB0002E6CBF /* books.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		04D5053A253B8C2B002E6CBF /* CVs */ = {
+			isa = PBXGroup;
+			children = (
+				04D5053D253B9317002E6CBF /* categoriesViewController.swift */,
+			);
+			path = CVs;
+			sourceTree = "<group>";
+		};
 		8378283248B71B8695152817 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +265,7 @@
 		D2C26FC724662807005E16A3 = {
 			isa = PBXGroup;
 			children = (
+				04D50510253B1FF4002E6CBF /* Kitaby */,
 				D2C26FE7246628B8005E16A3 /* iOS */,
 				D2C26FD224662807005E16A3 /* FirebaseTemplate */,
 				D2C26FD124662807005E16A3 /* Products */,
@@ -194,7 +277,7 @@
 		D2C26FD124662807005E16A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2C26FD024662807005E16A3 /* FirebaseTemplate.app */,
+				D2C26FD024662807005E16A3 /* Kitaby.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,7 +286,6 @@
 			isa = PBXGroup;
 			children = (
 				D209076124B9ED660069B920 /* ViewControllers */,
-				D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */,
 				D2C26FD324662807005E16A3 /* AppDelegate.swift */,
 				D2C26FD524662807005E16A3 /* SceneDelegate.swift */,
 				D209075F24B9EA180069B920 /* Main.storyboard */,
@@ -324,7 +406,7 @@
 			);
 			name = FirebaseTemplate;
 			productName = FirebaseTemplate;
-			productReference = D2C26FD024662807005E16A3 /* FirebaseTemplate.app */;
+			productReference = D2C26FD024662807005E16A3 /* Kitaby.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -365,11 +447,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D5052F253B3368002E6CBF /* Kitaby.storyboard in Resources */,
 				D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */,
 				D209076024B9EA180069B920 /* Main.storyboard in Resources */,
 				D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */,
+				04D5052E253B3368002E6CBF /* KitabyLaunch.storyboard in Resources */,
 				D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */,
-				D26B2C612469F2A200470CA2 /* GoogleService-Info.plist in Resources */,
+				04D50522253B3036002E6CBF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +509,9 @@
 				D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */,
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
+				04D50527253B335B002E6CBF /* mainVC.swift in Sources */,
+				04D5053E253B9317002E6CBF /* categoriesViewController.swift in Sources */,
+				04D50535253B7AB0002E6CBF /* books.swift in Sources */,
 				D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */,
@@ -433,13 +520,16 @@
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
 				D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
+				04D50539253B866D002E6CBF /* BookCollectionViewCell.swift in Sources */,
 				D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
 				D209076324B9ED810069B920 /* SignInVC.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
 				D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */,
+				04D50537253B846A002E6CBF /* CategoriesCollectionViewCell.swift in Sources */,
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
+				04D50526253B335B002E6CBF /* ViewController.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
 				D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */,
 			);
@@ -448,6 +538,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		04D5052A253B3368002E6CBF /* KitabyLaunch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D5052B253B3368002E6CBF /* Base */,
+			);
+			name = KitabyLaunch.storyboard;
+			sourceTree = "<group>";
+		};
+		04D5052C253B3368002E6CBF /* Kitaby.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D5052D253B3368002E6CBF /* Base */,
+			);
+			name = Kitaby.storyboard;
+			sourceTree = "<group>";
+		};
 		D2C26FDE24662809005E16A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -598,8 +704,8 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khatma.com;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farah.albader.Kitaby;
+				PRODUCT_NAME = Kitaby;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -630,8 +736,8 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khatma.com;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farah.albader.Kitaby;
+				PRODUCT_NAME = Kitaby;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
