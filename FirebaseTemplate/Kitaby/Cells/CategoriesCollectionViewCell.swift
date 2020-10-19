@@ -14,7 +14,8 @@ class CategoriesCollectionViewCell: UICollectionViewCell {
     
     
     
-    func categories (categorie: book) {
-        categorieLabel.text = books[0].category
+    func configure (category: Category) {
+        categorieLabel.text = category.category
+        
     }
 }
